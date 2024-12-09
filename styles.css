@@ -1,0 +1,119 @@
+/* General Reset and Basic Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container to center content */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: #2c3e50;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.hero-section .btn {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.hero-section .btn:hover {
+    background-color: #2980b9;
+}
+
+/* Section Styling */
+.section {
+    padding: 40px 0;
+}
+
+.bg-light {
+    background-color: #ecf0f1;
+}
+
+/* Feature Box */
+.feature-box {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.feature-box h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.feature-box ul {
+    list-style-type: none;
+}
+
+.feature-box ul li {
+    margin: 5px 0;
+}
+
+/* Button Styling for "Start Creating Now" */
+.btn-secondary {
+    display: inline-block;
+    background-color: #4CAF50; /* Green color */
+    color: white;
+    text-align: center;
+    padding: 12px 30px; /* Adjusts the size of the button */
+    font-size: 18px; /* Controls the text size */
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px; /* Optional: rounded corners */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Hover effect */
+}
+
+/* Hover effect */
+.btn-secondary:hover {
+    background-color: #45a049; /* Slightly darker green */
+    transform: scale(1.05); /* Slightly enlarges the button */
+}
+
+/* Button responsiveness */
+@media (max-width: 768px) {
+    .btn-secondary {
+        padding: 10px 25px; /* Smaller button on smaller screens */
+        font-size: 16px;
+    }
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
