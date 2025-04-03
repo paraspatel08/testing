@@ -17,7 +17,7 @@ interface SitemapURLS {
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const URL = config.site.mainURL;
-  const mainPath = ["", "fusion", "dex", "artists"];
+  const mainPath = ["", "features", "dex", "artists"];
   const pages = ["self-fusions", "triple-fusions"];
   const sitemapURLS: SitemapURLS[] = [];
 
